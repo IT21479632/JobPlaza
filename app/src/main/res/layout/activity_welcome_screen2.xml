@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".candidate.Welcome_screen_2">
+
+    <ScrollView android:id="@+id/welcome_screen_2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_welcome_screen_2_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__welcome_screen_2_ek2"
+                    android:background="@drawable/_bg__welcome_screen_2_ek2_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="390dp"
+                    android:layout_height="844dp" />
+
+
+                <RelativeLayout android:id="@+id/frame_1"
+                    android:layout_marginTop="781dp"
+                    android:layout_marginStart="168dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View   android:id="@+id/ellipse_9"
+                        android:background="@drawable/ellipse_9_shape"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp" />
+
+                    <View   android:id="@+id/ellipse_10"
+                        android:background="@drawable/ellipse_10_shape"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginTop="1.5dp"
+                        android:layout_width="5dp"
+                        android:layout_height="5dp" />
+
+                    <View   android:id="@+id/ellipse_11"
+                        android:background="@drawable/ellipse_11_shape"
+                        android:layout_marginStart="33dp"
+                        android:layout_marginTop="1.5dp"
+                        android:layout_width="5dp"
+                        android:layout_height="5dp" />
+
+                    <View   android:id="@+id/ellipse_12"
+                        android:background="@drawable/ellipse_12_shape"
+                        android:layout_marginStart="48dp"
+                        android:layout_marginTop="1.5dp"
+                        android:layout_width="5dp"
+                        android:layout_height="5dp" />
+
+                </RelativeLayout>
+
+                <TextView android:id="@+id/your_job_hunt_just_got_easier_browse_and_apply_for_the_jobs_on_the_go"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal|center"
+                    android:gravity="center"
+                    android:textSize="23sp"
+                    android:textColor="@color/your_job_hunt_just_got_easier_browse_and_apply_for_the_jobs_on_the_go_color"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="191dp"
+                    android:layout_width="344dp"
+                    android:layout_height="119.5dp"
+                    android:text="@string/your_job_hunt_just_got_easier_browse_and_apply_for_the_jobs_on_the_go_string"
+                    />
+
+                <TextView android:id="@+id/welcome_to_jobplaza"
+                    android:textStyle="bold"
+                    android:textSize="32sp"
+                    android:textColor="@color/ellipse_9_color"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_width="373dp"
+                    android:layout_height="61dp"
+                    android:text="@string/welcome_to_jobplaza_string"
+                    />
+
+                <ImageView android:id="@+id/_4950287_19874_1"
+                    android:src="@drawable/_4950287_19874_1"
+                    android:contentDescription="_4950287_19874_1"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="384dp"
+                    android:layout_width="363dp"
+                    android:layout_height="233dp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</HorizontalScrollView>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".candidate.Work_hour_calculator">
+
+    <ScrollView android:id="@+id/work_hour_calculator"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_work_hour_calculator_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__work_hour_calculator_ek2"
+                    android:background="@drawable/_bg__work_hour_calculator_ek2_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="390dp"
+                    android:layout_height="844dp" />
+
+
+                <EditText
+                    android:id="@+id/enter_daily_working_hours"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginTop="265dp"
+                    android:backgroundTint="#CDCDCD"
+                    android:text="@string/enter_daily_working_hours_string"
+                    android:textColor="@color/enter_daily_working_hours_color"
+                    android:textSize="15sp" />
+
+
+                <EditText
+                    android:id="@+id/enter_number_of_days_work_on_month"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginTop="343dp"
+                    android:backgroundTint="#CDCDCD"
+                    android:text="@string/enter_number_of_days_work_on_month_string"
+                    android:textColor="@color/enter_daily_working_hours_color"
+                    android:textSize="15sp" />
+
+
+                <Button
+                    android:id="@+id/calculate"
+                    android:layout_width="130dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="135dp"
+                    android:layout_marginTop="445dp"
+                    android:backgroundTint="@color/rectangle_3_color"
+                    android:text="@string/calculate_string"
+                    android:textColor="@color/_bg__candidate_application_ek2_color"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView android:id="@+id/rs__10000_00"
+                    android:textStyle="bold"
+                    android:textSize="43sp"
+                    android:textColor="@color/calculate_color"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginTop="547dp"
+                    android:layout_width="329.5dp"
+                    android:layout_height="82.5dp"
+                    android:text="@string/rs__10000_00_string"
+                    />
+
+                <TextView android:id="@+id/according_to_your_preferred_working_hours_we_are_going_to_calculate_your_basic_salary_"
+                    android:textSize="15sp"
+                    android:textColor="@color/enter_daily_working_hours_color"
+                    android:layout_marginLeft="54dp"
+                    android:layout_marginTop="128dp"
+                    android:layout_width="321.5dp"
+                    android:layout_height="64.5dp"
+                    android:text="@string/cal_des"
+                    />
+
+
+                <RelativeLayout android:id="@+id/document_ek1"
+                    android:layout_marginTop="703dp"
+                    android:layout_marginStart="107dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+
+                <View
+                    android:id="@+id/rectangle_7"
+                    android:layout_width="420dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_7_shape" />
+
+                <View
+                    android:id="@+id/rectangle_9"
+                    android:layout_width="420dp"
+                    android:layout_height="81dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="720dp"
+                    android:background="@drawable/rectangle_9_shape" />
+
+
+
+
+                <TextView android:id="@+id/work_calculator"
+                    android:textStyle="bold"
+                    android:textSize="21sp"
+                    android:textColor="@color/software_engineer_color"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="280dp"
+                    android:layout_height="39.5dp"
+                    android:text="Work Hour-Salary Calculator"
+                    />
+
+
+                <View
+                    android:id="@+id/rectangle_10"
+                    android:layout_width="59dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="135dp"
+                    android:layout_marginTop="735dp"
+                    android:background="@drawable/rectangle_10_shape" />
+
+
+                <RelativeLayout
+                    android:id="@+id/home"
+                    class=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="51dp"
+                    android:layout_marginTop="740dp">
+
+                    <ImageView
+                        android:id="@+id/vector_ek3"
+                        android:layout_width="29.17dp"
+                        android:layout_height="29.17dp"
+                        android:layout_marginStart="2.92dp"
+                        android:layout_marginTop="2.92dp"
+                        android:contentDescription="vector_ek3"
+                        android:src="@drawable/vector55" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/document"
+                    class=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="148dp"
+                    android:layout_marginTop="740dp">
+
+                    <ImageView
+                        android:id="@+id/vector"
+                        android:layout_width="26.25dp"
+                        android:layout_height="29.17dp"
+                        android:layout_marginStart="4.38dp"
+                        android:layout_marginTop="2.92dp"
+                        android:contentDescription="vector"
+                        android:src="@drawable/vector_ek44" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/heart"
+                    class=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="245dp"
+                    android:layout_marginTop="740dp">
+
+                    <ImageView
+                        android:id="@+id/vector_ek1"
+                        android:layout_width="29.17dp"
+                        android:layout_height="26.25dp"
+                        android:layout_marginStart="2.92dp"
+                        android:layout_marginTop="4.38dp"
+                        android:contentDescription="vector_ek1"
+                        android:src="@drawable/vector_ek1" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/user"
+                    class=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="342dp"
+                    android:layout_marginTop="740dp">
+
+                    <ImageView
+                        android:id="@+id/vector_ek2"
+                        android:layout_width="25.33dp"
+                        android:layout_height="23.75dp"
+                        android:layout_marginStart="6.33dp"
+                        android:layout_marginTop="11.08dp"
+                        android:contentDescription="vector_ek2"
+                        android:src="@drawable/vector_ek2" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bell"
+                    class=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="370dp"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/vector_ek4"
+                        android:layout_width="18dp"
+                        android:layout_height="15dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="2dp"
+                        android:contentDescription="vector_ek4"
+                        android:src="@drawable/vector_ek4" />
+
+                    <ImageView
+                        android:id="@+id/vector_ek5"
+                        android:layout_width="5dp"
+                        android:layout_height="2dp"
+                        android:layout_marginStart="10.27dp"
+                        android:layout_marginTop="21dp"
+                        android:contentDescription="vector_ek5"
+                        android:src="@drawable/vector_ek5" />
+
+                    <View
+                        android:id="@+id/ellipse_47"
+                        android:layout_width="7.94dp"
+                        android:layout_height="7.94dp"
+                        android:layout_marginStart="13.73dp"
+                        android:layout_marginTop="0.73dp"
+                        android:background="@drawable/ellipse_47_shape" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</HorizontalScrollView>
