@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".company.Job_post_publish">
+
+    <ScrollView
+        android:id="@+id/treding_jobs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:id="@+id/page_treding_jobs_ek1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp">
+
+                <View
+                    android:id="@+id/_bg__treding_jobs_ek2"
+                    android:layout_width="match_parent"
+                    android:layout_height="819dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/_bg__treding_jobs_ek2_shape" />
+
+                <View
+                    android:id="@+id/rectangle_7"
+                    android:layout_width="410dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_7_shape" />
+
+                <View
+                    android:id="@+id/rectangle_9"
+                    android:layout_width="410dp"
+                    android:layout_height="81dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="720dp"
+                    android:background="@drawable/rectangle_9_shape" />
+
+                <TextView android:id="@+id/good_morning__isuru"
+                    android:textStyle="bold"
+                    android:textSize="21sp"
+                    android:textColor="@color/education_color"
+                    android:layout_marginLeft="34dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_width="233.5dp"
+                    android:layout_height="39.5dp"
+                    android:text="@string/My_Offerings"
+                    />
+                <TextView android:id="@+id/lbs_company__pvt__ltd"
+                    android:textSize="15sp"
+                    android:textColor="@color/choose_file_color"
+                    android:layout_marginLeft="34dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_width="321.5dp"
+                    android:layout_height="28.5dp"
+                    android:text="@string/abccompany"
+                    />
+
+
+                <RelativeLayout
+                    android:id="@+id/home"
+                    class=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="51dp"
+                    android:layout_marginTop="740dp">
+
+                    <ImageView
+                        android:id="@+id/vector_ek3"
+                        android:layout_width="29.17dp"
+                        android:layout_height="29.17dp"
+                        android:layout_marginStart="2.92dp"
+                        android:layout_marginTop="2.92dp"
+                        android:contentDescription="vector_ek3"
+                        android:src="@drawable/vector55" />
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/rectangle_10"
+                    android:layout_width="59dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="188dp"
+                    android:layout_marginTop="735dp"
+                    android:background="@drawable/rectangle_10_shape" />
+
+                <RelativeLayout
+                    android:id="@+id/document"
+                    class=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="740dp">
+
+                    <ImageView
+                        android:id="@+id/vector"
+                        android:layout_width="26.25dp"
+                        android:layout_height="29.17dp"
+                        android:layout_marginStart="4.38dp"
+                        android:layout_marginTop="2.92dp"
+                        android:contentDescription="vector"
+                        android:src="@drawable/vector_ek44" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/user"
+                    class=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="342dp"
+                    android:layout_marginTop="740dp">
+
+                    <ImageView
+                        android:id="@+id/vector_ek2"
+                        android:layout_width="25.33dp"
+                        android:layout_height="23.75dp"
+                        android:layout_marginStart="6.33dp"
+                        android:layout_marginTop="11.08dp"
+                        android:contentDescription="vector_ek2"
+                        android:src="@drawable/vector_ek2" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/group_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="141dp">
+
+                    <View
+                        android:id="@+id/rectangle_1"
+                        android:layout_width="318dp"
+                        android:layout_height="180dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/rectangle_1_shape"
+                        android:backgroundTint="#E6E5E5"
+                        android:outlineProvider="background" />
+
+                    <TextView
+                        android:id="@+id/d1"
+                        android:layout_width="300dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="56dp"
+                        android:text="@string/we_are_looking"
+                        android:textColor="@color/search_color"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/software_engineer"
+                        android:layout_width="300dp"
+                        android:layout_height="39.5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/social"
+                        android:textColor="@color/trending_jobs_color"
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:id="@+id/apply"
+                        android:layout_width="89dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="221dp"
+                        android:layout_marginTop="126dp"
+                        android:backgroundTint="@color/rectangle_3_color"
+                        android:gravity="center"
+                        android:text="@string/edit"
+                        android:textColor="@color/rectangle_1_color"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/remove"
+                        android:layout_width="100dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="126dp"
+                        android:backgroundTint="#9C0505"
+                        android:gravity="center"
+                        android:text="Remove"
+                        android:textColor="@color/_bg__treding_jobs_ek2_color"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/group_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="338dp">
+
+                    <View
+                        android:id="@+id/rectangle_1_ek1"
+                        android:layout_width="318dp"
+                        android:layout_height="180dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/rectangle_1_ek1_shape"
+                        android:backgroundTint="#E6E5E5"
+                        android:outlineProvider="background" />
+
+                    <TextView
+                        android:id="@+id/d2"
+                        android:layout_width="300dp"
+                        android:layout_height="82.5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="51dp"
+                        android:text="@string/experiences_udeshani"
+                        android:textColor="@color/search_color"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/social_media_content_manager"
+                        android:layout_width="300dp"
+                        android:layout_height="39.5dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/Network_Engineer"
+                        android:textColor="@color/trending_jobs_color"
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:id="@+id/apply2"
+                        android:layout_width="89dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="221dp"
+                        android:layout_marginTop="126dp"
+                        android:backgroundTint="@color/rectangle_3_color"
+                        android:gravity="center"
+                        android:text="@string/edit"
+                        android:textColor="@color/rectangle_1_color"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/remove2"
+                        android:layout_width="100dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="126dp"
+                        android:backgroundTint="#9C0505"
+                        android:gravity="center"
+                        android:text="Remove"
+                        android:textColor="@color/_bg__treding_jobs_ek2_color"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/addnew"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="550dp"
+                    android:backgroundTint="#EFEEEE"
+                    android:gravity="center"
+                    android:outlineProvider="background"
+                    android:text="+ ADD NEW"
+                    android:textColor="@color/rectangle_3_color"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</HorizontalScrollView>

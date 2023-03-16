@@ -12,6 +12,12 @@
         android:theme="@style/Theme.JobPlaza"
         tools:targetApi="31">
         <activity
+            android:name=".company.Job_post_publish"
+            android:exported="false" />
+        <activity
+            android:name=".company.Profile_candidate"
+            android:exported="false" />
+        <activity
             android:name=".candidate.Profile_edit"
             android:exported="true">
             <intent-filter>
@@ -191,7 +197,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".candidate.Tranding_jobs"
             android:exported="true">
@@ -201,7 +206,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".candidate.Sign_up"
             android:exported="true">

@@ -78,7 +78,7 @@
                     android:layout_marginTop="191dp"
                     android:layout_width="344dp"
                     android:layout_height="119.5dp"
-                    android:text="@string/your_job_hunt_just_got_easier_browse_and_apply_for_the_jobs_on_the_go_string"
+                    android:text="@string/welcome_screen_2_description"
                     />
 
                 <TextView android:id="@+id/welcome_to_jobplaza"
@@ -89,7 +89,7 @@
                     android:layout_marginTop="70dp"
                     android:layout_width="373dp"
                     android:layout_height="61dp"
-                    android:text="@string/welcome_to_jobplaza_string"
+                    android:text="@string/welcome_screen_2_title"
                     />
 
                 <ImageView android:id="@+id/_4950287_19874_1"

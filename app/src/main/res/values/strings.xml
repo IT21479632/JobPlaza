@@ -6,8 +6,8 @@
     <string name="text_string"> </string>
 
     <!-- welcome_screen_2 strings -->
-    <string name="your_job_hunt_just_got_easier_browse_and_apply_for_the_jobs_on_the_go_string">Your job hunt  just got easierBrowse and apply for the jobs on the go</string>
-    <string name="welcome_to_jobplaza_string">Welcome to JobPlaza</string>
+    <string name="welcome_screen_2_description">Your job hunt  just got easierBrowse and apply for the jobs on the go</string>
+    <string name="welcome_screen_2_title">Welcome to JobPlaza</string>
 
     <!-- sign_in strings -->
     <string name="login_to_your_account_string">Login to your Account</string>
@@ -147,6 +147,26 @@ software engineer</string>
 isuru.u@gmail.com</string>
     <string name="changepassword">Change Password</string>
     <string name="deleteaccountbutton">Delete My Account</string>
+
+
+    <!--_______________________________company side__________________________________-->
+
+    <!--profile candidate-->
+
+    <string name="udeshani_name_and_email">Udeshani Senavirathna udeshani.s@gmail.com</string>
+    <string name="Udeshani_S">Udeshani S.</string>
+    <string name="Network_Engineer">Network Engineer</string>
+    <string name="hire">Hire</string>
+    <string name="experiences_udeshani">Perform 24x7 network surveillance of clients network infrastructure and devices, to provide round-the-clock fault  and technical support.</string>
+    <string name="skills_udeshani">proficient_in_programming_languages_such_as_java__python__or_c___knowledge_of_front_end_development_technologies_str</string>
+    <string name="education_udeshani"> Bachelor\'s degree in Computer Science
+Relevant coursework includes Marketing Principles, Consumer Behavior.</string>
+
+
+    <!--job post publish-->
+    <string name="My_Offerings">My Offerings</string>
+    <string name="abccompany">ABC Company (PVT) Ltd</string>
+    <string name="edit">Edit</string>
 
 
 </resources>

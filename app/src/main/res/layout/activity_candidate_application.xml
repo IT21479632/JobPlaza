@@ -41,7 +41,7 @@
 
                 <Button
                     android:id="@+id/choose_file"
-                    android:layout_width="106.5dp"
+                    android:layout_width="110dp"
                     android:layout_height="58.5dp"
                     android:layout_marginLeft="250dp"
                     android:layout_marginTop="537dp"
@@ -75,7 +75,7 @@
                         android:layout_width="148dp"
                         android:layout_height="60dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="-3dp"
+                        android:layout_marginLeft="0dp"
                         android:layout_marginTop="0dp"
                         android:backgroundTint="@color/rectangle_3_color"
                         android:gravity="center"
@@ -83,7 +83,7 @@
                         android:textColor="@color/_bg__candidate_application_ek2_color"
                         android:textSize="15sp"
                         android:textStyle="bold"
-                        app:cornerRadius="10dp" />
+                        app:cornerRadius="15dp" />
 
                 </RelativeLayout>
 
@@ -98,10 +98,10 @@
 
                     <Button
                         android:id="@+id/confirm"
-                        android:layout_width="115dp"
+                        android:layout_width="110dp"
                         android:layout_height="60dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="-3dp"
+                        android:layout_marginLeft="0dp"
                         android:layout_marginTop="0dp"
                         android:backgroundTint="@color/rectangle_3_color"
                         android:gravity="center"
