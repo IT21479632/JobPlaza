@@ -47,9 +47,7 @@
 
     <!-- secected_job_description strings -->
     <string name="we_are_seeking">We are seeking an experienced C# Game Server Development Engineer relevant experience. The candidate must have experience in developing game servers for multiple game projects, especially being familiar with KCP protocol. </string>
-    <string name="we_are_seeking2">Job Requirements :
-* Curating content for the companys social media accounts.experience in C# game server development, with experience in multiple game projects preferred, and MUST be familiar with KCP protocol.
-* Familiar with component-based development mode (non-inheritance mode) and object-oriented programming concepts.</string>
+    <string name="we_are_seeking2">Job Requirements :\n\n* Curating content for the companys social media accounts.experience in C# game server development, with experience in multiple game projects preferred, and MUST be familiar with KCP protocol.\n\n* Familiar with component-based development mode (non-inheritance mode) and object-oriented programming concepts.</string>
     <string name="calculate_average_salary_string">Calculate Average Salary</string>
 
     <!-- candidate_application strings -->
@@ -80,52 +78,18 @@
 
 
     <string name="we_are_looking">We are looking for a creative and strategic Social Media Content Manager to manage our company\'s presence on a multitude of online platforms.</string>
-    <string name="we_are_looking2">You’ll play an important role in :
-* Curating content for the company\'s social media accounts.
-*Monitoring and improving social media traffic, growth, engagement, and brand performance through both organic and paid marketing.
-*Collaborating with Content, Marketing, and Sales teams about content development, topics, and opportunities.</string>
+    <string name="we_are_looking2">You’ll play an important role in :\n\n* Curating content for the company\'s social media accounts.\n\n*Monitoring and improving social media traffic, growth, engagement, and brand performance through both organic and paid marketing.\n\n*Collaborating with Content, Marketing, and Sales teams about content development, topics, and opportunities.</string>
 
 
-    <string name="experiences">* Previous experience working on software development projects, either through internships or personal projects
+    <string name="experiences">* Previous experience working on software development projects, either through internships or personal projects\n\n* Familiarity with software development processes, including requirements gathering, design, implementation, testing, and deployment\n\n* Experience working with databases such as MySQL or PostgreSQL\n\n* Familiarity with cloud computing platforms such as Amazon Web Services (AWS) or Microsoft Azure\n\n* Experience with software testing and quality assurance methodologies\n\n* Experience working in a part-time or remote work environment</string>
 
-* Familiarity with software development processes, including requirements gathering, design, implementation, testing, and deployment
+    <string name="skills">* Proficient in programming languages such as Java, Python, or C++\n\n* Knowledge of front-end development technologies such as HTML, CSS, and JavaScript\n\n* Experience with back-end development technologies such as Node.js, PHP, or Ruby on Rails\n\n* Familiarity with software development tools such as Git, JIRA, or Slack\n\n* Strong problem-solving skills and attention to detail\n\n* Ability to work independently and in a team environment\n\n* Good communication skills and ability to collaborate with others</string>
 
-* Experience working with databases such as MySQL or PostgreSQL
+    <string name="education">* Bachelor\'s degree in Computer Science.\n\n* Completion of relevant coursework in software engineering, programming, and software development\n\n* Familiarity with software development methodologies such as Agile or Scrum.</string>
 
-* Familiarity with cloud computing platforms such as Amazon Web Services (AWS) or Microsoft Azure
-
-* Experience with software testing and quality assurance methodologies
-
-* Experience working in a part-time or remote work environment</string>
-
-    <string name="skills">* Proficient in programming languages such as Java, Python, or C++
-
-* Knowledge of front-end development technologies such as HTML, CSS, and JavaScript
-
-* Experience with back-end development technologies such as Node.js, PHP, or Ruby on Rails
-
-* Familiarity with software development tools such as Git, JIRA, or Slack
-
-* Strong problem-solving skills and attention to detail
-
-* Ability to work independently and in a team environment
-
-* Good communication skills and ability to collaborate with others</string>
-
-    <string name="education">* Bachelor\'s degree in Computer Science.
-
-* Completion of relevant coursework in software engineering, programming, and software development
-
-* Familiarity with software development methodologies such as Agile or Scrum.</string>
-
-
-    <string name="deleteaccount">Are you sure want to delete your whole account? You\'ll lose everything. Everything you\'re ever posted will be gone forever.
-
-If you\'re sure, confirm by logging in below.</string>
+    <string name="deleteaccount">Are you sure want to delete your whole account? You\'ll lose everything. Everything you\'re ever posted will be gone forever.\n\nIf you\'re sure, confirm by logging in below.</string>
 
     <!-- profile strings -->
-
-
     <string name="bachelor_s_degree_in_computer_science__string">Bachelors degree in Computer Science.</string>
     <string name="education_string">Education</string>
     <string name="add_string">ADD</string>
@@ -138,13 +102,9 @@ If you\'re sure, confirm by logging in below.</string>
     <string name="skills_string">Skills</string>
     <string name="add_ek2_string">ADD</string>
 
-    <string name="editname">Name :
-Isuru udantha</string>
-
-    <string name="editststus">Status :
-software engineer</string>
-    <string name="editemail">Email :
-isuru.u@gmail.com</string>
+    <string name="editname">Name :\nIsuru udantha</string>
+    <string name="editststus">Status :\nsoftware engineer</string>
+    <string name="editemail">Email :\nisuru.u@gmail.com</string>
     <string name="changepassword">Change Password</string>
     <string name="deleteaccountbutton">Delete My Account</string>
 
@@ -159,8 +119,7 @@ isuru.u@gmail.com</string>
     <string name="hire">Hire</string>
     <string name="experiences_udeshani">Perform 24x7 network surveillance of clients network infrastructure and devices, to provide round-the-clock fault  and technical support.</string>
     <string name="skills_udeshani">proficient_in_programming_languages_such_as_java__python__or_c___knowledge_of_front_end_development_technologies_str</string>
-    <string name="education_udeshani"> Bachelor\'s degree in Computer Science
-Relevant coursework includes Marketing Principles, Consumer Behavior.</string>
+    <string name="education_udeshani"> Bachelor\'s degree in Computer Science\n\nRelevant coursework includes Marketing Principles, Consumer Behavior.</string>
 
 
     <!--job post publish-->
