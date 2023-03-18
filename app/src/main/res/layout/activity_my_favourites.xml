@@ -26,20 +26,13 @@
                 android:layout_marginTop="0dp">
 
                 <View
-                    android:id="@+id/_bg__treding_jobs_ek2"
-                    android:layout_width="match_parent"
-                    android:layout_height="819dp"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="0dp"
-                    android:background="@drawable/_bg__treding_jobs_ek2_shape" />
-
-                <View
                     android:id="@+id/rectangle_7"
                     android:layout_width="410dp"
                     android:layout_height="110dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
-                    android:background="@drawable/rectangle_7_shape" />
+                    android:background="@drawable/rectangle_7_shape"
+                    android:backgroundTint="@color/top_box" />
 
                 <View
                     android:id="@+id/rectangle_9"
@@ -47,7 +40,8 @@
                     android:layout_height="81dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="720dp"
-                    android:background="@drawable/rectangle_9_shape" />
+                    android:background="@drawable/rectangle_9_shape"
+                    android:backgroundTint="@color/top_box" />
 
                 <TextView
                     android:id="@+id/trending_jobs"
@@ -56,7 +50,7 @@
                     android:layout_marginLeft="45dp"
                     android:layout_marginTop="15dp"
                     android:text="My Favourites"
-                    android:textColor="@color/trending_jobs_color"
+                    android:textColor="@color/text_color"
                     android:textSize="21sp"
                     android:textStyle="bold" />
 
@@ -66,7 +60,9 @@
                     android:layout_height="48dp"
                     android:layout_marginStart="45dp"
                     android:layout_marginTop="50dp"
-                    android:background="@drawable/rectangle_8_shape" />
+                    android:background="@drawable/rectangle_8_shape"
+                    android:backgroundTint="@color/box_color2"
+                    android:elevation="10dp"/>
 
                 <EditText
                     android:id="@+id/search"
@@ -74,11 +70,12 @@
                     android:layout_height="48dp"
                     android:layout_marginLeft="45dp"
                     android:layout_marginTop="51dp"
-                    android:backgroundTint="@color/rectangle_8_color"
+                    android:backgroundTint="@color/box_color2"
                     android:inputType=""
                     android:text="@string/search_string"
-                    android:textColor="@color/search_color"
-                    android:textSize="15sp" />
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:elevation="10dp"/>
 
                 <View
                     android:id="@+id/rectangle_10"
@@ -86,7 +83,8 @@
                     android:layout_height="50dp"
                     android:layout_marginStart="233dp"
                     android:layout_marginTop="735dp"
-                    android:background="@drawable/rectangle_10_shape" />
+                    android:background="@drawable/rectangle_10_shape"
+                    android:backgroundTint="@color/button_color_blue" />
 
                 <RelativeLayout
                     android:id="@+id/document"
@@ -191,7 +189,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="56dp"
                         android:text="We are seeking an experienced C# Game Server Development Engineer.The candidate must have experience in developing game servers."
-                        android:textColor="@color/search_color"
+                        android:textColor="@color/text_color"
                         android:textSize="15sp" />
 
                     <TextView
@@ -201,7 +199,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="5dp"
                         android:text="Software Engineer"
-                        android:textColor="@color/trending_jobs_color"
+                        android:textColor="@color/text_color"
                         android:textSize="21sp"
                         android:textStyle="bold" />
 
@@ -213,10 +211,10 @@
                         android:layout_gravity="center_horizontal|center"
                         android:layout_marginLeft="221dp"
                         android:layout_marginTop="126dp"
-                        android:backgroundTint="@color/rectangle_3_color"
+                        android:backgroundTint="@color/button_color_blue"
                         android:gravity="center"
                         android:text="@string/apply_string"
-                        android:textColor="@color/rectangle_1_color"
+                        android:textColor="@color/white"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
@@ -227,10 +225,10 @@
                         android:layout_gravity="center_horizontal|center"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="126dp"
-                        android:backgroundTint="@color/_bg__treding_jobs_ek2_color"
+                        android:backgroundTint="@color/button_color_red"
                         android:gravity="center"
                         android:text="Remove"
-                        android:textColor="@color/ellipse_47_color"
+                        android:textColor="@color/white"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
@@ -260,7 +258,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="51dp"
                         android:text="Plan, supervise and implement the programme for the class in accordance with centre’s policies and framework"
-                        android:textColor="@color/search_color"
+                        android:textColor="@color/text_color"
                         android:textSize="15sp" />
 
                     <TextView
@@ -270,7 +268,7 @@
                         android:layout_marginLeft="3dp"
                         android:layout_marginTop="4dp"
                         android:text="English Tutor"
-                        android:textColor="@color/trending_jobs_color"
+                        android:textColor="@color/text_color"
                         android:textSize="21sp"
                         android:textStyle="bold" />
 
@@ -282,10 +280,10 @@
                         android:layout_gravity="center_horizontal|center"
                         android:layout_marginLeft="221dp"
                         android:layout_marginTop="126dp"
-                        android:backgroundTint="@color/rectangle_3_color"
+                        android:backgroundTint="@color/button_color_blue"
                         android:gravity="center"
                         android:text="@string/apply_ek1_string"
-                        android:textColor="@color/rectangle_1_color"
+                        android:textColor="@color/white"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
@@ -296,10 +294,10 @@
                         android:layout_gravity="center_horizontal|center"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="126dp"
-                        android:backgroundTint="@color/_bg__treding_jobs_ek2_color"
+                        android:backgroundTint="@color/button_color_red"
                         android:gravity="center"
                         android:text="Remove"
-                        android:textColor="@color/ellipse_47_color"
+                        android:textColor="@color/white"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
@@ -338,7 +336,8 @@
                         android:layout_height="7.94dp"
                         android:layout_marginStart="13.73dp"
                         android:layout_marginTop="0.73dp"
-                        android:background="@drawable/ellipse_47_shape" />
+                        android:background="@drawable/ellipse_47_shape"
+                        android:backgroundTint="@color/button_color_red" />
 
                 </RelativeLayout>
 

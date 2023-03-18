@@ -23,12 +23,6 @@
                 android:layout_height="wrap_content"
                 >
 
-                <View   android:id="@+id/_bg__work_hour_calculator_ek2"
-                    android:background="@drawable/_bg__work_hour_calculator_ek2_shape"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_width="390dp"
-                    android:layout_height="844dp" />
 
 
                 <EditText
@@ -39,7 +33,7 @@
                     android:layout_marginTop="265dp"
                     android:backgroundTint="#CDCDCD"
                     android:text="@string/enter_daily_working_hours_string"
-                    android:textColor="@color/enter_daily_working_hours_color"
+                    android:textColor="@color/text_color"
                     android:textSize="15sp" />
 
 
@@ -51,7 +45,7 @@
                     android:layout_marginTop="343dp"
                     android:backgroundTint="#CDCDCD"
                     android:text="@string/enter_number_of_days_work_on_month_string"
-                    android:textColor="@color/enter_daily_working_hours_color"
+                    android:textColor="@color/text_color"
                     android:textSize="15sp" />
 
 
@@ -61,16 +55,18 @@
                     android:layout_height="48dp"
                     android:layout_marginLeft="135dp"
                     android:layout_marginTop="445dp"
-                    android:backgroundTint="@color/rectangle_3_color"
+                    android:backgroundTint="@color/white"
                     android:text="@string/calculate_string"
-                    android:textColor="@color/_bg__candidate_application_ek2_color"
+                    android:textColor="@color/button_color_blue"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    app:strokeColor="@color/button_color_blue"
+                    app:strokeWidth="1dp" />
 
                 <TextView android:id="@+id/rs__10000_00"
                     android:textStyle="bold"
                     android:textSize="43sp"
-                    android:textColor="@color/calculate_color"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="64dp"
                     android:layout_marginTop="547dp"
                     android:layout_width="329.5dp"
@@ -80,7 +76,7 @@
 
                 <TextView android:id="@+id/according_to_your_preferred_working_hours_we_are_going_to_calculate_your_basic_salary_"
                     android:textSize="15sp"
-                    android:textColor="@color/enter_daily_working_hours_color"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="54dp"
                     android:layout_marginTop="128dp"
                     android:layout_width="321.5dp"
@@ -103,7 +99,8 @@
                     android:layout_height="110dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
-                    android:background="@drawable/rectangle_7_shape" />
+                    android:background="@drawable/rectangle_7_shape"
+                    android:backgroundTint="@color/top_box" />
 
                 <View
                     android:id="@+id/rectangle_9"
@@ -111,7 +108,8 @@
                     android:layout_height="81dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="720dp"
-                    android:background="@drawable/rectangle_9_shape" />
+                    android:background="@drawable/rectangle_9_shape"
+                    android:backgroundTint="@color/top_box" />
 
 
 
@@ -119,7 +117,7 @@
                 <TextView android:id="@+id/work_calculator"
                     android:textStyle="bold"
                     android:textSize="21sp"
-                    android:textColor="@color/software_engineer_color"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="36dp"
                     android:layout_marginTop="15dp"
                     android:layout_width="280dp"
@@ -134,7 +132,8 @@
                     android:layout_height="50dp"
                     android:layout_marginStart="135dp"
                     android:layout_marginTop="735dp"
-                    android:background="@drawable/rectangle_10_shape" />
+                    android:background="@drawable/rectangle_10_shape"
+                    android:backgroundTint="@color/button_color_blue" />
 
 
                 <RelativeLayout
@@ -247,7 +246,8 @@
                         android:layout_height="7.94dp"
                         android:layout_marginStart="13.73dp"
                         android:layout_marginTop="0.73dp"
-                        android:background="@drawable/ellipse_47_shape" />
+                        android:background="@drawable/ellipse_47_shape"
+                        android:backgroundTint="@color/button_color_red" />
                 </RelativeLayout>
 
             </RelativeLayout>

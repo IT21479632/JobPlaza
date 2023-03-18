@@ -23,12 +23,6 @@
                 android:layout_height="wrap_content"
                 >
 
-                <View   android:id="@+id/_bg__welcome_screen_ek2"
-                    android:background="@drawable/_bg__welcome_screen_ek2_shape"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_width="390dp"
-                    android:layout_height="844dp" />
 
                 <ImageView android:id="@+id/logo_type_1_1"
                     android:src="@drawable/logo_type_1_1"
@@ -47,28 +41,28 @@
                     >
 
                     <View   android:id="@+id/ellipse_9"
-                        android:background="@drawable/ellipse_9_shape"
+                        android:background="@drawable/ellipse_shape"
                         android:layout_marginStart="0dp"
                         android:layout_marginTop="0dp"
                         android:layout_width="8dp"
                         android:layout_height="8dp" />
 
                     <View   android:id="@+id/ellipse_10"
-                        android:background="@drawable/ellipse_10_shape"
+                        android:background="@drawable/ellipse_shape"
                         android:layout_marginStart="18dp"
                         android:layout_marginTop="1.5dp"
                         android:layout_width="5dp"
                         android:layout_height="5dp" />
 
                     <View   android:id="@+id/ellipse_11"
-                        android:background="@drawable/ellipse_11_shape"
+                        android:background="@drawable/ellipse_shape"
                         android:layout_marginStart="33dp"
                         android:layout_marginTop="1.5dp"
                         android:layout_width="5dp"
                         android:layout_height="5dp" />
 
                     <View   android:id="@+id/ellipse_12"
-                        android:background="@drawable/ellipse_12_shape"
+                        android:background="@drawable/ellipse_shape"
                         android:layout_marginStart="48dp"
                         android:layout_marginTop="1.5dp"
                         android:layout_width="5dp"

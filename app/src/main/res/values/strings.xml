@@ -94,7 +94,7 @@
     <string name="education_string">Education</string>
     <string name="add_string">ADD</string>
     <string name="good_morning__isuru_string">Good Morning, Isuru</string>
-    <string name="isuru_udantha_software_engineer_isuru_u_gmail_com_string">Isuru UdanthaSoftware Engineerisuru.u@gmail.com</string>
+    <string name="isuru_udantha_software_engineer_isuru_u_gmail_com_string">Isuru Udantha\nSoftware Engineer\nisuru.u@gmail.com</string>
     <string name="previous_experience_working_on_software_development_projects__either_through_internships_or_personal_projects_string">Previous experience working on software development projects, either through internships or personal projects</string>
     <string name="experiences_string">Experiences</string>
     <string name="add_ek1_string">ADD</string>
@@ -118,12 +118,12 @@
     <string name="Network_Engineer">Network Engineer</string>
     <string name="hire">Hire</string>
     <string name="experiences_udeshani">Perform 24x7 network surveillance of clients network infrastructure and devices, to provide round-the-clock fault  and technical support.</string>
-    <string name="skills_udeshani">proficient_in_programming_languages_such_as_java__python__or_c___knowledge_of_front_end_development_technologies_str</string>
-    <string name="education_udeshani"> Bachelor\'s degree in Computer Science\n\nRelevant coursework includes Marketing Principles, Consumer Behavior.</string>
+    <string name="skills_udeshani">proficient in programming languages such as java python or c knowledge of front end development technologies.</string>
+    <string name="education_udeshani">Bachelor\'s degree in Computer Science Relevant coursework includes Marketing Principles, Consumer Behavior.</string>
 
 
     <!--job post publish-->
-    <string name="My_Offerings">My Offerings</string>
+    <string name="My_Offerings">Job Offers</string>
     <string name="abccompany">ABC Company (PVT) Ltd</string>
     <string name="edit">Edit</string>
 

@@ -23,17 +23,12 @@
                 android:layout_height="wrap_content"
                 >
 
-                <View   android:id="@+id/_bg__sign_up_ek2"
-                    android:background="@drawable/_bg__sign_up_ek2_shape"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_width="390dp"
-                    android:layout_height="844dp" />
+
 
                 <TextView android:id="@+id/create_your_account"
                     android:textStyle="bold"
                     android:textSize="21sp"
-                    android:textColor="@color/create_your_account_color"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="89dp"
                     android:layout_marginTop="128dp"
                     android:layout_width="239.5dp"
@@ -41,17 +36,12 @@
                     android:text="@string/create_your_account_string"
                     />
 
-                <View   android:id="@+id/rectangle_1"
-                    android:background="@drawable/rectangle_1_shape"
-                    android:layout_marginStart="41dp"
-                    android:layout_marginTop="188dp"
-                    android:layout_width="308dp"
-                    android:layout_height="48dp" />
+
 
                 <EditText android:id="@+id/email"
                     android:inputType="textEmailAddress"
                     android:textSize="17sp"
-                    android:textColor="@color/email_color"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="41dp"
                     android:layout_marginTop="188dp"
                     android:layout_width="330.5dp"
@@ -59,19 +49,14 @@
                     android:hint="@string/email_string"
                     />
 
-                <View   android:id="@+id/rectangle_2"
-                    android:background="@drawable/rectangle_2_shape"
-                    android:layout_marginStart="41dp"
-                    android:layout_marginTop="275dp"
-                    android:layout_width="308dp"
-                    android:layout_height="48dp" />
+
 
 
 
                 <EditText android:id="@+id/password"
                     android:inputType="textPassword"
                     android:textSize="17sp"
-                    android:textColor="@color/email_color"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="41dp"
                     android:layout_marginTop="275dp"
                     android:layout_width="330.5dp"
@@ -79,17 +64,12 @@
                     android:hint="@string/password_string"
                     />
 
-                <View   android:id="@+id/rectangle_4"
-                    android:background="@drawable/rectangle_4_shape"
-                    android:layout_marginStart="41dp"
-                    android:layout_marginTop="362dp"
-                    android:layout_width="308dp"
-                    android:layout_height="48dp" />
+
 
                 <EditText android:id="@+id/confirm_password"
                     android:inputType="textPassword"
                     android:textSize="17sp"
-                    android:textColor="@color/email_color"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="41dp"
                     android:layout_marginTop="362dp"
                     android:layout_width="330.5dp"
@@ -132,17 +112,17 @@
                     android:layout_gravity="center_horizontal|center"
                     android:layout_marginLeft="38dp"
                     android:layout_marginTop="592dp"
-                    android:backgroundTint="@color/rectangle_3_color"
+                    android:backgroundTint="@color/button_color_blue"
                     android:gravity="center"
                     android:text="@string/sign_up_ek3_string"
-                    android:textColor="@color/rectangle_1_color"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     app:cornerRadius="10dp" />
 
                 <TextView android:id="@+id/__or_sign_up_with_"
                     android:textSize="15sp"
-                    android:textColor="@color/email_color"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="138dp"
                     android:layout_marginTop="690dp"
                     android:layout_width="141.5dp"
@@ -158,12 +138,7 @@
                     android:layout_height="wrap_content"
                     >
 
-                    <View   android:id="@+id/rectangle_4_ek1"
-                        android:background="@drawable/rectangle_4_ek1_shape"
-                        android:layout_marginStart="0dp"
-                        android:layout_marginTop="0dp"
-                        android:layout_width="42dp"
-                        android:layout_height="42dp" />
+
 
                     <ImageView android:id="@+id/image_1"
                         android:src="@drawable/image_1"
@@ -183,12 +158,7 @@
                     android:layout_height="wrap_content"
                     >
 
-                    <View   android:id="@+id/rectangle_5"
-                        android:background="@drawable/rectangle_5_shape"
-                        android:layout_marginStart="4dp"
-                        android:layout_marginTop="4dp"
-                        android:layout_width="42dp"
-                        android:layout_height="42dp" />
+
 
                     <ImageView android:id="@+id/pngegg_1"
                         android:src="@drawable/pngegg_1"
