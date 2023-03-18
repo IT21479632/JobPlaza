@@ -21,13 +21,6 @@
                 android:layout_height="wrap_content"
                 >
 
-                <View   android:id="@+id/_bg__profile_ek2"
-                    android:background="@drawable/_bg__profile_ek2_shape"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_width="390dp"
-                    android:layout_height="844dp" />
-
                 <ImageView android:id="@+id/image_3"
                     android:src="@drawable/image_3"
                     android:contentDescription="image_3"
@@ -55,7 +48,7 @@
                     android:layout_height="70dp"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="320dp"
-                    android:backgroundTint="#E1DFDF"
+                    android:backgroundTint="@color/box_color2"
                     android:gravity="left|center_vertical"
                     android:text="@string/editname"
                     android:textColor="@color/black"
@@ -67,7 +60,7 @@
                     android:layout_height="70dp"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="395dp"
-                    android:backgroundTint="#E1DFDF"
+                    android:backgroundTint="@color/box_color2"
                     android:gravity="left|center_vertical"
                     android:text="@string/editststus"
                     android:textColor="@color/black"
@@ -79,7 +72,7 @@
                     android:layout_height="70dp"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="470dp"
-                    android:backgroundTint="#E1DFDF"
+                    android:backgroundTint="@color/box_color2"
                     android:gravity="left|center_vertical"
                     android:text="@string/editemail"
                     android:textColor="@color/black"
@@ -91,7 +84,7 @@
                     android:layout_height="70dp"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="545dp"
-                    android:backgroundTint="#E1DFDF"
+                    android:backgroundTint="@color/box_color2"
                     android:gravity="left|center_vertical"
                     android:text="@string/changepassword"
                     android:textColor="@color/black"
@@ -103,7 +96,7 @@
                     android:layout_height="70dp"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="620dp"
-                    android:backgroundTint="#E1DFDF"
+                    android:backgroundTint="@color/box_color2"
                     android:gravity="left|center_vertical"
                     android:text="@string/deleteaccountbutton"
                     android:textColor="@color/black"
@@ -132,12 +125,13 @@
                     android:layout_height="110dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
-                    android:background="@drawable/rectangle_7_shape" />
+                    android:background="@drawable/rectangle_7_shape"
+                    android:backgroundTint="@color/top_box" />
 
                 <TextView android:id="@+id/good_morning__isuru"
                     android:textStyle="bold"
                     android:textSize="21sp"
-                    android:textColor="@color/education_color"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="34dp"
                     android:layout_marginTop="28dp"
                     android:layout_width="233.5dp"
@@ -151,7 +145,8 @@
                     android:layout_height="81dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="720dp"
-                    android:background="@drawable/rectangle_9_shape" />
+                    android:background="@drawable/rectangle_9_shape"
+                    android:backgroundTint="@color/top_box" />
 
                 <View
                     android:id="@+id/rectangle_10"
@@ -159,7 +154,8 @@
                     android:layout_height="50dp"
                     android:layout_marginStart="332dp"
                     android:layout_marginTop="735dp"
-                    android:background="@drawable/rectangle_10_shape" />
+                    android:background="@drawable/rectangle_10_shape"
+                    android:backgroundTint="@color/button_color_blue" />
 
 
                 <RelativeLayout
@@ -272,7 +268,8 @@
                         android:layout_height="7.94dp"
                         android:layout_marginStart="13.73dp"
                         android:layout_marginTop="0.73dp"
-                        android:background="@drawable/ellipse_47_shape" />
+                        android:background="@drawable/ellipse_47_shape"
+                        android:backgroundTint="@color/button_color_red" />
                 </RelativeLayout>
 
             </RelativeLayout>

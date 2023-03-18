@@ -28,12 +28,13 @@
                     android:layout_height="110dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
-                    android:background="@drawable/rectangle_7_shape" />
+                    android:background="@drawable/rectangle_7_shape"
+                    android:backgroundTint="@color/top_box" />
 
                 <TextView android:id="@+id/software_engineer"
                     android:textStyle="bold"
                     android:textSize="23sp"
-                    android:textColor="@color/software_engineer_color"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="36dp"
                     android:layout_marginTop="15dp"
                     android:layout_width="214.5dp"
@@ -43,7 +44,7 @@
 
                 <TextView android:id="@+id/lbs_company__pvt__ltd"
                     android:textSize="15sp"
-                    android:textColor="@color/choose_file_color"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="36dp"
                     android:layout_marginTop="60dp"
                     android:layout_width="321.5dp"
@@ -59,7 +60,7 @@
                     android:layout_marginTop="200dp"
                     android:hint="Enter New Status"
                     android:inputType=""
-                    android:textColor="@color/choose_file_color"
+                    android:textColor="@color/text_color"
                     android:textSize="15sp" />
 
                 <Button
@@ -69,10 +70,10 @@
                     android:layout_gravity="center_horizontal|center"
                     android:layout_marginLeft="250dp"
                     android:layout_marginTop="300dp"
-                    android:backgroundTint="@color/rectangle_3_color"
+                    android:backgroundTint="@color/button_color_blue"
                     android:gravity="center"
                     android:text="Save"
-                    android:textColor="@color/rectangle_1_color"
+                    android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
@@ -83,12 +84,14 @@
                     android:layout_gravity="center_horizontal|center"
                     android:layout_marginLeft="50dp"
                     android:layout_marginTop="300dp"
-                    android:backgroundTint="@color/choose_file_color"
+                    android:backgroundTint="@color/white"
                     android:gravity="center"
                     android:text="Cancel"
-                    android:textColor="@color/rectangle_3_color"
+                    android:textColor="@color/button_color_blue"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    app:strokeColor="@color/button_color_blue"
+                    app:strokeWidth="2dp"/>
 
                 <View
                     android:id="@+id/rectangle_9"
@@ -96,14 +99,17 @@
                     android:layout_height="81dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="720dp"
-                    android:background="@drawable/rectangle_9_shape" />
+                    android:background="@drawable/rectangle_9_shape"
+                    android:backgroundTint="@color/top_box" />
+
                 <View
                     android:id="@+id/rectangle_10"
                     android:layout_width="59dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="332dp"
                     android:layout_marginTop="735dp"
-                    android:background="@drawable/rectangle_10_shape" />
+                    android:background="@drawable/rectangle_10_shape"
+                    android:backgroundTint="@color/button_color_blue" />
 
 
                 <RelativeLayout
@@ -216,7 +222,8 @@
                         android:layout_height="7.94dp"
                         android:layout_marginStart="13.73dp"
                         android:layout_marginTop="0.73dp"
-                        android:background="@drawable/ellipse_47_shape" />
+                        android:background="@drawable/ellipse_47_shape"
+                        android:backgroundTint="@color/button_color_red" />
                 </RelativeLayout>
 
             </RelativeLayout>

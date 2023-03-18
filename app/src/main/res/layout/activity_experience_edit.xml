@@ -20,18 +20,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 >
+
                 <View
                     android:id="@+id/rectangle_7"
                     android:layout_width="410dp"
                     android:layout_height="110dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
-                    android:background="@drawable/rectangle_7_shape" />
+                    android:background="@drawable/rectangle_7_shape"
+                    android:backgroundTint="@color/top_box" />
 
                 <TextView android:id="@+id/software_engineer"
                     android:textStyle="bold"
                     android:textSize="23sp"
-                    android:textColor="@color/software_engineer_color"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="36dp"
                     android:layout_marginTop="15dp"
                     android:layout_width="214.5dp"
@@ -41,7 +43,7 @@
 
                 <TextView android:id="@+id/Softwareisuru"
                     android:textSize="15sp"
-                    android:textColor="@color/choose_file_color"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="36dp"
                     android:layout_marginTop="41dp"
                     android:layout_width="321.5dp"
@@ -52,7 +54,7 @@
                 <TextView android:id="@+id/Experiences"
                     android:textStyle="bold"
                     android:textSize="23sp"
-                    android:textColor="@color/software_engineer_color"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="140dp"
                     android:layout_marginTop="120dp"
                     android:layout_width="130dp"
@@ -67,17 +69,19 @@
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="170dp"
                     android:background="@drawable/rectangle_1_shape"
-                    android:backgroundTint="#EFEFEF" />
+                    android:backgroundTint="@color/box_color2"
+                    android:elevation="10dp" />
 
-                <TextView android:id="@+id/we_are_seeking2"
-                    android:textSize="15sp"
-                    android:textColor="@color/we_are_seeking"
-                    android:layout_marginLeft="45dp"
-                    android:layout_marginTop="190dp"
+                <TextView
+                    android:id="@+id/we_are_seeking2"
                     android:layout_width="315dp"
                     android:layout_height="420dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="190dp"
+                    android:elevation="20dp"
                     android:text="@string/experiences"
-                    />
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
 
                 <Button
                     android:id="@+id/save"
@@ -86,10 +90,10 @@
                     android:layout_gravity="center_horizontal|center"
                     android:layout_marginLeft="160dp"
                     android:layout_marginTop="650dp"
-                    android:backgroundTint="@color/rectangle_3_color"
+                    android:backgroundTint="@color/button_color_blue"
                     android:gravity="center"
                     android:text="Save"
-                    android:textColor="@color/rectangle_1_color"
+                    android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold"
                     app:cornerRadius="10dp" />
@@ -100,14 +104,17 @@
                     android:layout_height="81dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="720dp"
-                    android:background="@drawable/rectangle_9_shape" />
+                    android:background="@drawable/rectangle_9_shape"
+                    android:backgroundTint="@color/top_box" />
+
                 <View
                     android:id="@+id/rectangle_10"
                     android:layout_width="59dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="332dp"
                     android:layout_marginTop="735dp"
-                    android:background="@drawable/rectangle_10_shape" />
+                    android:background="@drawable/rectangle_10_shape"
+                    android:backgroundTint="@color/button_color_blue" />
 
 
                 <RelativeLayout
@@ -220,7 +227,8 @@
                         android:layout_height="7.94dp"
                         android:layout_marginStart="13.73dp"
                         android:layout_marginTop="0.73dp"
-                        android:background="@drawable/ellipse_47_shape" />
+                        android:background="@drawable/ellipse_47_shape"
+                        android:backgroundTint="@color/button_color_red" />
                 </RelativeLayout>
 
 

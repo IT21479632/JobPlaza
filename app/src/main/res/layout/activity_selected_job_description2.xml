@@ -24,23 +24,20 @@
                 android:layout_height="wrap_content"
                 >
 
-                <View   android:id="@+id/_bg__secected_job_description_ek2"
-                    android:background="@drawable/_bg__secected_job_description_ek2_shape"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_width="390dp"
-                    android:layout_height="844dp" />
-
-                <View   android:id="@+id/rectangle_1"
+                <View
+                    android:id="@+id/rectangle_1"
+                    android:layout_width="350dp"
+                    android:layout_height="600dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="115dp"
                     android:background="@drawable/rectangle_1_shape"
-                    android:layout_marginStart="36dp"
-                    android:layout_marginTop="97dp"
-                    android:layout_width="318dp"
-                    android:layout_height="588dp" />
+                    android:backgroundTint="#EFEFEF"
+                    />
+
 
                 <TextView android:id="@+id/we_are_seeking"
                     android:textSize="15sp"
-                    android:textColor="@color/we_are_seeking"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="268dp"
                     android:layout_width="315dp"
@@ -50,7 +47,7 @@
 
                 <TextView android:id="@+id/we_are_seeking2"
                     android:textSize="15sp"
-                    android:textColor="@color/we_are_seeking"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="385dp"
                     android:layout_width="315dp"
@@ -70,15 +67,17 @@
                         android:layout_width="300dp"
                         android:layout_height="48dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="-dp"
+                        android:layout_marginLeft="0dp"
                         android:layout_marginTop="0dp"
-                        android:backgroundTint="#E3E2E2"
+                        android:backgroundTint="@color/white"
                         android:gravity="center"
                         android:text="@string/calculate_average_salary_string"
-                        android:textColor="@color/calculate_average_salary_color"
+                        android:textColor="@color/button_color_blue"
                         android:textSize="15sp"
                         android:textStyle="bold"
-                        app:cornerRadius="10dp" />
+                        app:cornerRadius="10dp"
+                        app:strokeColor="@color/button_color_blue"
+                        app:strokeWidth="1dp"  />
 
                 </RelativeLayout>
 
@@ -98,12 +97,13 @@
                         android:layout_gravity="center_horizontal|center"
                         android:layout_marginLeft="1dp"
                         android:layout_marginTop="0dp"
-                        android:backgroundTint="@color/rectangle_3_color"
+                        android:backgroundTint="@color/button_color_blue"
                         android:gravity="center"
                         android:text="@string/apply_string"
-                        android:textColor="@color/rectangle_1_color"
+                        android:textColor="@color/white"
                         android:textSize="15sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:cornerRadius="10dp" />
 
                 </RelativeLayout>
 
@@ -140,7 +140,8 @@
                     android:layout_height="110dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
-                    android:background="@drawable/rectangle_7_shape" />
+                    android:background="@drawable/rectangle_7_shape"
+                    android:backgroundTint="@color/top_box" />
 
                 <TextView
                     android:id="@+id/social_media_content_manager"
@@ -149,13 +150,13 @@
                     android:layout_marginLeft="36dp"
                     android:layout_marginTop="15dp"
                     android:text="@string/social"
-                    android:textColor="@color/software_engineer_color"
+                    android:textColor="@color/text_color"
                     android:textSize="21sp"
                     android:textStyle="bold" />
 
                 <TextView android:id="@+id/lbs_company__pvt__ltd"
                     android:textSize="15sp"
-                    android:textColor="@color/we_are_seeking"
+                    android:textColor="@color/text_color"
                     android:layout_marginLeft="36dp"
                     android:layout_marginTop="41dp"
                     android:layout_width="321.5dp"
@@ -169,14 +170,17 @@
                     android:layout_height="81dp"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="720dp"
-                    android:background="@drawable/rectangle_9_shape" />
+                    android:background="@drawable/rectangle_9_shape"
+                    android:backgroundTint="@color/top_box" />
+
                 <View
                     android:id="@+id/rectangle_10"
                     android:layout_width="59dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="135dp"
                     android:layout_marginTop="735dp"
-                    android:background="@drawable/rectangle_10_shape" />
+                    android:background="@drawable/rectangle_10_shape"
+                    android:backgroundTint="@color/button_color_blue" />
 
 
                 <RelativeLayout
@@ -289,7 +293,8 @@
                         android:layout_height="7.94dp"
                         android:layout_marginStart="13.73dp"
                         android:layout_marginTop="0.73dp"
-                        android:background="@drawable/ellipse_47_shape" />
+                        android:background="@drawable/ellipse_47_shape"
+                        android:backgroundTint="@color/button_color_red" />
                 </RelativeLayout>
 
             </RelativeLayout>

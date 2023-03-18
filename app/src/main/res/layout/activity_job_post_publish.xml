@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".candidate.My_favourites">
-
+    tools:context=".company.Job_post_publish">
 
     <ScrollView
         android:id="@+id/treding_jobs"
@@ -43,45 +42,51 @@
                     android:background="@drawable/rectangle_9_shape"
                     android:backgroundTint="@color/top_box" />
 
-                <TextView
-                    android:id="@+id/trending_jobs"
-                    android:layout_width="171.5dp"
-                    android:layout_height="39.5dp"
-                    android:layout_marginLeft="45dp"
-                    android:layout_marginTop="15dp"
-                    android:text="My Favourites"
-                    android:textColor="@color/text_color"
+                <TextView android:id="@+id/good_morning__isuru"
+                    android:textStyle="bold"
                     android:textSize="21sp"
-                    android:textStyle="bold" />
-
-                <View
-                    android:id="@+id/rectangle_8"
-                    android:layout_width="318dp"
-                    android:layout_height="48dp"
-                    android:layout_marginStart="45dp"
-                    android:layout_marginTop="50dp"
-                    android:background="@drawable/rectangle_8_shape"
-                    android:backgroundTint="@color/box_color2"
-                    android:elevation="10dp"/>
-
-                <EditText
-                    android:id="@+id/search"
-                    android:layout_width="310dp"
-                    android:layout_height="48dp"
-                    android:layout_marginLeft="45dp"
-                    android:layout_marginTop="51dp"
-                    android:backgroundTint="@color/box_color2"
-                    android:inputType=""
-                    android:text="@string/search_string"
                     android:textColor="@color/text_color"
+                    android:layout_marginLeft="34dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_width="233.5dp"
+                    android:layout_height="39.5dp"
+                    android:text="@string/My_Offerings"
+                    />
+                <TextView android:id="@+id/lbs_company__pvt__ltd"
                     android:textSize="15sp"
-                    android:elevation="10dp"/>
+                    android:textColor="@color/text_color"
+                    android:layout_marginLeft="34dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_width="321.5dp"
+                    android:layout_height="28.5dp"
+                    android:text="@string/abccompany"
+                    />
+
+
+                <RelativeLayout
+                    android:id="@+id/home"
+                    class=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="51dp"
+                    android:layout_marginTop="740dp">
+
+                    <ImageView
+                        android:id="@+id/vector_ek3"
+                        android:layout_width="29.17dp"
+                        android:layout_height="29.17dp"
+                        android:layout_marginStart="2.92dp"
+                        android:layout_marginTop="2.92dp"
+                        android:contentDescription="vector_ek3"
+                        android:src="@drawable/vector55" />
+
+                </RelativeLayout>
 
                 <View
                     android:id="@+id/rectangle_10"
                     android:layout_width="59dp"
                     android:layout_height="50dp"
-                    android:layout_marginStart="233dp"
+                    android:layout_marginStart="188dp"
                     android:layout_marginTop="735dp"
                     android:background="@drawable/rectangle_10_shape"
                     android:backgroundTint="@color/button_color_blue" />
@@ -91,7 +96,7 @@
                     class=""
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="148dp"
+                    android:layout_marginStart="200dp"
                     android:layout_marginTop="740dp">
 
                     <ImageView
@@ -101,27 +106,7 @@
                         android:layout_marginStart="4.38dp"
                         android:layout_marginTop="2.92dp"
                         android:contentDescription="vector"
-                        android:src="@drawable/vector" />
-
-                </RelativeLayout>
-
-
-                <RelativeLayout
-                    android:id="@+id/heart"
-                    class=""
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="245dp"
-                    android:layout_marginTop="740dp">
-
-                    <ImageView
-                        android:id="@+id/vector_ek1"
-                        android:layout_width="29.17dp"
-                        android:layout_height="26.25dp"
-                        android:layout_marginStart="2.92dp"
-                        android:layout_marginTop="4.38dp"
-                        android:contentDescription="vector_ek1"
-                        android:src="@drawable/vector_ek55" />
+                        android:src="@drawable/vector_ek44" />
 
                 </RelativeLayout>
 
@@ -147,26 +132,6 @@
 
 
                 <RelativeLayout
-                    android:id="@+id/home"
-                    class=""
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="51dp"
-                    android:layout_marginTop="740dp">
-
-                    <ImageView
-                        android:id="@+id/vector_ek3"
-                        android:layout_width="29.17dp"
-                        android:layout_height="29.17dp"
-                        android:layout_marginStart="2.92dp"
-                        android:layout_marginTop="2.92dp"
-                        android:contentDescription="vector_ek3"
-                        android:src="@drawable/vector55" />
-
-                </RelativeLayout>
-
-
-                <RelativeLayout
                     android:id="@+id/group_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -180,7 +145,8 @@
                         android:layout_marginStart="0dp"
                         android:layout_marginTop="0dp"
                         android:background="@drawable/rectangle_1_shape"
-                        android:backgroundTint="#E6E5E5" />
+                        android:backgroundTint="#E6E5E5"
+                        android:outlineProvider="background" />
 
                     <TextView
                         android:id="@+id/d1"
@@ -188,7 +154,7 @@
                         android:layout_height="80dp"
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="56dp"
-                        android:text="We are seeking an experienced C# Game Server Development Engineer.The candidate must have experience in developing game servers."
+                        android:text="@string/we_are_looking"
                         android:textColor="@color/text_color"
                         android:textSize="15sp" />
 
@@ -198,7 +164,7 @@
                         android:layout_height="39.5dp"
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="5dp"
-                        android:text="Software Engineer"
+                        android:text="@string/social"
                         android:textColor="@color/text_color"
                         android:textSize="21sp"
                         android:textStyle="bold" />
@@ -213,7 +179,7 @@
                         android:layout_marginTop="126dp"
                         android:backgroundTint="@color/button_color_blue"
                         android:gravity="center"
-                        android:text="@string/apply_string"
+                        android:text="@string/edit"
                         android:textColor="@color/white"
                         android:textSize="15sp"
                         android:textStyle="bold" />
@@ -225,7 +191,7 @@
                         android:layout_gravity="center_horizontal|center"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="126dp"
-                        android:backgroundTint="@color/button_color_red"
+                        android:backgroundTint="#9C0505"
                         android:gravity="center"
                         android:text="Remove"
                         android:textColor="@color/white"
@@ -249,7 +215,8 @@
                         android:layout_marginStart="0dp"
                         android:layout_marginTop="0dp"
                         android:background="@drawable/rectangle_1_ek1_shape"
-                        android:backgroundTint="#E6E5E5" />
+                        android:backgroundTint="#E6E5E5"
+                        android:outlineProvider="background" />
 
                     <TextView
                         android:id="@+id/d2"
@@ -257,7 +224,7 @@
                         android:layout_height="82.5dp"
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="51dp"
-                        android:text="Plan, supervise and implement the programme for the class in accordance with centre’s policies and framework"
+                        android:text="@string/experiences_udeshani"
                         android:textColor="@color/text_color"
                         android:textSize="15sp" />
 
@@ -267,7 +234,7 @@
                         android:layout_height="39.5dp"
                         android:layout_marginLeft="3dp"
                         android:layout_marginTop="4dp"
-                        android:text="English Tutor"
+                        android:text="@string/Network_Engineer"
                         android:textColor="@color/text_color"
                         android:textSize="21sp"
                         android:textStyle="bold" />
@@ -282,7 +249,7 @@
                         android:layout_marginTop="126dp"
                         android:backgroundTint="@color/button_color_blue"
                         android:gravity="center"
-                        android:text="@string/apply_ek1_string"
+                        android:text="@string/edit"
                         android:textColor="@color/white"
                         android:textSize="15sp"
                         android:textStyle="bold" />
@@ -294,7 +261,7 @@
                         android:layout_gravity="center_horizontal|center"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="126dp"
-                        android:backgroundTint="@color/button_color_red"
+                        android:backgroundTint="#9C0505"
                         android:gravity="center"
                         android:text="Remove"
                         android:textColor="@color/white"
@@ -303,43 +270,22 @@
 
                 </RelativeLayout>
 
+                <Button
+                    android:id="@+id/addnew"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="550dp"
+                    android:backgroundTint="#EFEEEE"
+                    android:elevation="20dp"
+                    android:gravity="center"
+                    android:outlineProvider="background"
+                    android:text="+ ADD NEW"
+                    android:textColor="@color/button_color_blue"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
-                <RelativeLayout
-                    android:id="@+id/bell"
-                    class=""
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="370dp"
-                    android:layout_marginTop="15dp">
-
-                    <ImageView
-                        android:id="@+id/vector_ek4"
-                        android:layout_width="18dp"
-                        android:layout_height="15dp"
-                        android:layout_marginStart="3dp"
-                        android:layout_marginTop="2dp"
-                        android:contentDescription="vector_ek4"
-                        android:src="@drawable/vector_ek4" />
-
-                    <ImageView
-                        android:id="@+id/vector_ek5"
-                        android:layout_width="3.46dp"
-                        android:layout_height="1dp"
-                        android:layout_marginStart="10.27dp"
-                        android:layout_marginTop="21dp"
-                        android:contentDescription="vector_ek5"
-                        android:src="@drawable/vector_ek5" />
-
-                    <View
-                        android:id="@+id/ellipse_47"
-                        android:layout_width="7.94dp"
-                        android:layout_height="7.94dp"
-                        android:layout_marginStart="13.73dp"
-                        android:layout_marginTop="0.73dp"
-                        android:background="@drawable/ellipse_47_shape"
-                        android:backgroundTint="@color/button_color_red" />
-
-                </RelativeLayout>
 
             </RelativeLayout>
         </RelativeLayout>
