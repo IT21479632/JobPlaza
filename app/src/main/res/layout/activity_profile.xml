@@ -41,22 +41,24 @@
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
+                <View
+                    android:id="@+id/rectangle_1_ek1"
+                    android:layout_width="340dp"
+                    android:layout_height="146dp"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="308dp"
+                    android:background="@drawable/textbox"
+                    android:elevation="10dp" />
+
 
                 <RelativeLayout android:id="@+id/group_4"
                     android:layout_marginTop="305dp"
                     android:layout_marginStart="36dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:elevation="20dp"
                     >
 
-                    <View
-                        android:id="@+id/rectangle_1_ek1"
-                        android:layout_width="340dp"
-                        android:layout_height="146dp"
-                        android:layout_marginStart="0dp"
-                        android:layout_marginTop="0dp"
-                        android:background="@drawable/rectangle_1_ek1_shape"
-                        android:backgroundTint="#E1DFDF" />
 
                     <TextView
                         android:id="@+id/previous_experience_working_on_software_development_projects__either_through_internships_or_personal_projects"
@@ -94,21 +96,24 @@
 
                 </RelativeLayout>
 
+                <View
+                    android:id="@+id/rectangle_1_ek2"
+                    android:layout_width="340dp"
+                    android:layout_height="146dp"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="470dp"
+                    android:background="@drawable/textbox"
+                    android:elevation="10dp" />
+
 
                 <RelativeLayout android:id="@+id/group_5"
                     android:layout_marginTop="470dp"
                     android:layout_marginStart="36dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:elevation="20dp"
                     >
 
-                    <View   android:id="@+id/rectangle_1_ek2"
-                        android:background="@drawable/rectangle_1_ek2_shape"
-                        android:layout_marginStart="0dp"
-                        android:layout_marginTop="0dp"
-                        android:layout_width="340dp"
-                        android:layout_height="146dp"
-                        android:backgroundTint="#E1DFDF"/>
 
                     <TextView
                         android:id="@+id/proficient_in_programming_languages_such_as_java__python__or_c___knowledge_of_front_end_development_technologies"
@@ -146,20 +151,24 @@
 
                 </RelativeLayout>
 
+                <View
+                    android:id="@+id/rectangle_1"
+                    android:layout_width="340dp"
+                    android:layout_height="146dp"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="633dp"
+                    android:background="@drawable/textbox"
+                    android:elevation="10dp" />
+
                 <RelativeLayout android:id="@+id/group_6"
                     android:layout_marginTop="633dp"
                     android:layout_marginStart="36dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:elevation="20dp"
                     >
 
-                    <View   android:id="@+id/rectangle_1"
-                        android:background="@drawable/rectangle_1_shape"
-                        android:layout_marginStart="0dp"
-                        android:layout_marginTop="0dp"
-                        android:layout_width="340dp"
-                        android:layout_height="146dp"
-                        android:backgroundTint="#E1DFDF" />
+
 
                     <TextView
                         android:id="@+id/bachelor_s_degree_in_computer_science_"
@@ -242,7 +251,8 @@
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="720dp"
                     android:background="@drawable/rectangle_9_shape"
-                    android:backgroundTint="@color/top_box" />
+                    android:backgroundTint="@color/top_box"
+                    android:elevation="20dp"/>
 
                 <View
                     android:id="@+id/rectangle_10"
@@ -251,7 +261,8 @@
                     android:layout_marginStart="332dp"
                     android:layout_marginTop="735dp"
                     android:background="@drawable/rectangle_10_shape"
-                    android:backgroundTint="@color/button_color_blue" />
+                    android:backgroundTint="@color/button_color_blue"
+                    android:elevation="20dp"/>
 
 
                 <RelativeLayout
@@ -260,7 +271,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="51dp"
-                    android:layout_marginTop="740dp">
+                    android:layout_marginTop="740dp"
+                    android:elevation="20dp">
 
                     <ImageView
                         android:id="@+id/vector_ek3"
@@ -279,7 +291,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="148dp"
-                    android:layout_marginTop="740dp">
+                    android:layout_marginTop="740dp"
+                    android:elevation="20dp">
 
                     <ImageView
                         android:id="@+id/vector"
@@ -299,7 +312,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="245dp"
-                    android:layout_marginTop="740dp">
+                    android:layout_marginTop="740dp"
+                    android:elevation="20dp">
 
                     <ImageView
                         android:id="@+id/vector_ek1"
@@ -319,7 +333,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="342dp"
-                    android:layout_marginTop="740dp">
+                    android:layout_marginTop="740dp"
+                    android:elevation="20dp">
 
                     <ImageView
                         android:id="@+id/vector_ek2"

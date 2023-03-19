@@ -36,8 +36,9 @@
                     android:layout_height="570dp"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="121dp"
-                    android:background="@drawable/rectangle_1_shape"
-                    android:backgroundTint="@color/box_color2" />
+                    android:background="@drawable/textbox"
+                    android:elevation="2dp"
+                    android:textAlignment="center" />
 
                 <Button
                     android:id="@+id/choose_file"
@@ -54,23 +55,19 @@
                     app:strokeColor="#979797"
                     app:strokeWidth="2dp" />
 
-                <TextView android:id="@+id/upload_university_id"
-                    android:textSize="15sp"
-                    android:textColor="@color/text_color"
-                    android:layout_marginLeft="60dp"
-                    android:layout_marginTop="545dp"
+                <TextView
+                    android:id="@+id/upload_university_id"
                     android:layout_width="165dp"
                     android:layout_height="28.5dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="545dp"
+                    android:elevation="5dp"
                     android:text="@string/upload_university_id_string"
-                    />
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
 
 
-                <RelativeLayout android:id="@+id/group_14"
-                    android:layout_marginTop="619dp"
-                    android:layout_marginStart="57dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    >
+
 
 
                     <Button
@@ -78,179 +75,133 @@
                         android:layout_width="168dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="0dp"
-                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="57dp"
+                        android:layout_marginTop="619dp"
                         android:backgroundTint="@color/white"
+                        android:elevation="5dp"
                         android:gravity="center"
                         android:outlineProvider="background"
                         android:singleLine="false"
                         android:text="@string/upload_resume_string"
                         android:textColor="@color/button_color_blue"
-                        android:textSize="15sp"
+                        android:textSize="@dimen/button1"
                         android:textStyle="bold"
                         app:cornerRadius="10dp"
                         app:strokeColor="@color/button_color_blue"
                         app:strokeWidth="1dp" />
 
-                </RelativeLayout>
-
-
-                <RelativeLayout android:id="@+id/group_8"
+                <Button
+                    android:id="@+id/confirm"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="255dp"
                     android:layout_marginTop="619dp"
-                    android:layout_marginStart="255dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    >
-
-
-                    <Button
-                        android:id="@+id/confirm"
-                        android:layout_width="110dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="0dp"
-                        android:layout_marginTop="0dp"
-                        android:backgroundTint="@color/button_color_blue"
-                        android:gravity="center"
-                        android:outlineProvider="background"
-                        android:text="@string/confirm_string"
-                        android:textColor="@color/white"
-                        android:textSize="15sp"
-                        android:textStyle="bold"
-                        app:cornerRadius="10dp" />
-
-                </RelativeLayout>
-
-
-                <RelativeLayout android:id="@+id/group_9"
-                    android:layout_marginTop="263dp"
-                    android:layout_marginStart="57dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    >
+                    android:backgroundTint="@color/button_color_blue"
+                    android:gravity="center"
+                    android:outlineProvider="background"
+                    android:text="@string/confirm_string"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="10dp" />
 
 
 
-                    <EditText android:id="@+id/contact_no"
-                        android:inputType=""
-                        android:textSize="15sp"
-                        android:textColor="@color/text_color"
-                        android:layout_marginLeft="0dp"
-                        android:layout_marginTop="0dp"
+
+
+
+
+                    <EditText
+                        android:id="@+id/contact_no"
                         android:layout_width="308.5dp"
-                        android:layout_height="58.5dp"
-                        android:text="@string/contact_no_string"
-                        />
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="57dp"
+                        android:layout_marginTop="263dp"
+                        android:background="@drawable/textbox"
+                        android:elevation="5dp"
+                        android:inputType=""
+                        android:textColor="@color/text_color"
+                        android:textSize="15sp"
+                        android:paddingLeft="5dp"
+                        android:hint="@string/contact_no_string"/>
 
-                </RelativeLayout>
 
-
-                <RelativeLayout android:id="@+id/group_10"
+                <EditText
+                    android:id="@+id/nic_number"
+                    android:layout_width="305.5dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="56dp"
                     android:layout_marginTop="327dp"
-                    android:layout_marginStart="56dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    >
-
-                    <View
-                        android:id="@+id/rectangle_77"
-                        android:layout_width="287dp"
-                        android:layout_height="48dp"
-                        android:layout_marginStart="0dp"
-                        android:layout_marginTop="0dp" />
-
-                    <EditText android:id="@+id/nic_number"
-                        android:inputType=""
-                        android:textSize="15sp"
-                        android:textColor="@color/text_color"
-                        android:layout_marginLeft="0dp"
-                        android:layout_marginTop="0dp"
-                        android:layout_width="305.5dp"
-                        android:layout_height="58.5dp"
-                        android:text="@string/nic_number_string"
-                        />
-
-                </RelativeLayout>
-
-
-                <RelativeLayout android:id="@+id/group_13"
-                    android:layout_marginTop="455dp"
-                    android:layout_marginStart="58dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    >
-
-
-
-                    <EditText android:id="@+id/university"
-                        android:inputType=""
-                        android:textSize="15sp"
-                        android:textColor="@color/text_color"
-                        android:layout_marginLeft="0dp"
-                        android:layout_marginTop="0dp"
-                        android:layout_width="305.5dp"
-                        android:layout_height="58.5dp"
-                        android:text="@string/university_string"
-                        />
-
-                </RelativeLayout>
-
-
-                <RelativeLayout android:id="@+id/group_12"
-                    android:layout_marginTop="200dp"
-                    android:layout_marginStart="56dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    >
-
-
-
-                    <EditText android:id="@+id/full_name"
-                        android:inputType=""
-                        android:textSize="15sp"
-                        android:textColor="@color/text_color"
-                        android:layout_marginLeft="0dp"
-                        android:layout_marginTop="0dp"
-                        android:layout_width="307.5dp"
-                        android:layout_height="58.5dp"
-                        android:text="@string/full_name_string"
-                        />
-
-                </RelativeLayout>
-
-
-                <RelativeLayout android:id="@+id/group_11"
-                    android:layout_marginTop="391dp"
-                    android:layout_marginStart="57dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    >
-
-
-                    <EditText android:id="@+id/email"
-                        android:inputType=""
-                        android:textSize="15sp"
-                        android:textColor="@color/text_color"
-                        android:layout_marginLeft="0dp"
-                        android:layout_marginTop="0dp"
-                        android:layout_width="307.5dp"
-                        android:layout_height="58.5dp"
-                        android:text="@string/email_string"
-                        />
-
-                </RelativeLayout>
-
-
-
-                <TextView android:id="@+id/application_form"
-                    android:textSize="21sp"
+                    android:background="@drawable/textbox"
+                    android:elevation="5dp"
+                    android:hint="@string/nic_number_string"
+                    android:inputType=""
+                    android:paddingLeft="5dp"
                     android:textColor="@color/text_color"
-                    android:layout_marginLeft="126dp"
-                    android:layout_marginTop="148dp"
+                    android:textSize="15sp" />
+
+
+                <EditText
+                    android:id="@+id/university"
+                    android:layout_width="305.5dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="58dp"
+                    android:layout_marginTop="455dp"
+                    android:background="@drawable/textbox"
+                    android:elevation="5dp"
+                    android:inputType=""
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp"
+                    android:hint="@string/university_string"/>
+
+
+
+
+
+
+
+                    <EditText
+                        android:id="@+id/full_name"
+                        android:layout_width="307.5dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="56dp"
+                        android:layout_marginTop="200dp"
+                        android:elevation="5dp"
+                        android:inputType=""
+                        android:hint="@string/full_name_string"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/textbox1"
+                        android:background="@drawable/textbox"
+                        android:paddingLeft="5dp"/>
+
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="307.5dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="56dp"
+                        android:layout_marginTop="391dp"
+                        android:elevation="5dp"
+                        android:inputType=""
+                        android:hint="@string/email_string"
+                        android:textColor="@color/text_color"
+                        android:textSize="15sp"
+                        android:background="@drawable/textbox"
+                        android:paddingLeft="5dp"/>
+
+
+                <TextView
+                    android:id="@+id/application_form"
                     android:layout_width="196.5dp"
                     android:layout_height="39.5dp"
+                    android:layout_marginLeft="126dp"
+                    android:layout_marginTop="148dp"
+                    android:elevation="5dp"
                     android:text="@string/application_form_string"
-                    />
+                    android:textColor="@color/text_color"
+                    android:textSize="21sp" />
 
 
                 <View
@@ -260,7 +211,8 @@
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp"
                     android:background="@drawable/rectangle_7_shape"
-                    android:backgroundTint="@color/top_box" />
+                    android:backgroundTint="@color/top_box"
+                    android:elevation="1dp" />
 
                 <View
                     android:id="@+id/rectangle_9"
@@ -269,28 +221,31 @@
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="720dp"
                     android:background="@drawable/rectangle_9_shape"
-                    android:backgroundTint="@color/top_box" />
+                    android:backgroundTint="@color/top_box"
+                    android:elevation="1dp" />
 
-                <TextView android:id="@+id/software_engineer"
-                    android:textStyle="bold"
-                    android:textSize="21sp"
-                    android:textColor="@color/text_color"
-                    android:layout_marginLeft="36dp"
-                    android:layout_marginTop="15dp"
+                <TextView
+                    android:id="@+id/software_engineer"
                     android:layout_width="214.5dp"
                     android:layout_height="39.5dp"
-                    android:text="@string/software_engineer_string"
-                    />
-
-                <TextView android:id="@+id/lbs_company__pvt__ltd"
-                    android:textSize="15sp"
-                    android:textColor="@color/text_color"
                     android:layout_marginLeft="36dp"
-                    android:layout_marginTop="41dp"
+                    android:layout_marginTop="15dp"
+                    android:elevation="5dp"
+                    android:text="@string/software_engineer_string"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/title_text"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lbs_company__pvt__ltd"
                     android:layout_width="321.5dp"
                     android:layout_height="28.5dp"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="41dp"
+                    android:elevation="5dp"
                     android:text="@string/lbs_company__pvt__ltd_string"
-                    />
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
 
                 <View
                     android:id="@+id/rectangle_10"
@@ -299,7 +254,8 @@
                     android:layout_marginStart="39dp"
                     android:layout_marginTop="735dp"
                     android:background="@drawable/rectangle_10_shape"
-                    android:backgroundTint="@color/button_color_blue" />
+                    android:backgroundTint="@color/button_color_blue"
+                    android:elevation="4dp" />
 
 
                 <RelativeLayout
@@ -308,7 +264,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="51dp"
-                    android:layout_marginTop="740dp">
+                    android:layout_marginTop="740dp"
+                    android:elevation="5dp" >
 
                     <ImageView
                         android:id="@+id/vector_ek3"
@@ -327,7 +284,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="148dp"
-                    android:layout_marginTop="740dp">
+                    android:layout_marginTop="740dp"
+                    android:elevation="5dp" >
 
                     <ImageView
                         android:id="@+id/vector"
@@ -347,7 +305,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="245dp"
-                    android:layout_marginTop="740dp">
+                    android:layout_marginTop="740dp"
+                    android:elevation="5dp" >
 
                     <ImageView
                         android:id="@+id/vector_ek1"
@@ -367,7 +326,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="342dp"
-                    android:layout_marginTop="740dp">
+                    android:layout_marginTop="735dp"
+                    android:elevation="5dp" >
 
                     <ImageView
                         android:id="@+id/vector_ek2"
@@ -386,7 +346,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="370dp"
-                    android:layout_marginTop="15dp">
+                    android:layout_marginTop="15dp"
+                    android:elevation="5dp" >
 
                     <ImageView
                         android:id="@+id/vector_ek4"

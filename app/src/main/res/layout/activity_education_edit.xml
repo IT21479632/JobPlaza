@@ -51,16 +51,16 @@
                     android:text="Software Engineer"
                     />
 
-                <TextView android:id="@+id/Experiences"
-                    android:textStyle="bold"
-                    android:textSize="23sp"
-                    android:textColor="@color/text_color"
-                    android:layout_marginLeft="155dp"
-                    android:layout_marginTop="120dp"
+                <TextView
+                    android:id="@+id/Experiences"
                     android:layout_width="110dp"
                     android:layout_height="39.5dp"
+                    android:layout_marginLeft="155dp"
+                    android:layout_marginTop="120dp"
                     android:text="Education"
-                    />
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/education_text"
+                    android:textStyle="bold" />
 
                 <View
                     android:id="@+id/rectangle_1"
@@ -68,8 +68,7 @@
                     android:layout_height="470dp"
                     android:layout_marginStart="30dp"
                     android:layout_marginTop="170dp"
-                    android:background="@drawable/rectangle_1_shape"
-                    android:backgroundTint="#EFEFEF"
+                    android:background="@drawable/textbox"
                     android:elevation="10dp" />
 
                 <TextView
@@ -81,7 +80,7 @@
                     android:elevation="20dp"
                     android:text="@string/education"
                     android:textColor="@color/text_color"
-                    android:textSize="15sp" />
+                    android:textSize="@dimen/text_para" />
 
                 <Button
                     android:id="@+id/save"
@@ -114,7 +113,8 @@
                     android:layout_marginStart="332dp"
                     android:layout_marginTop="735dp"
                     android:background="@drawable/rectangle_10_shape"
-                    android:backgroundTint="@color/button_color_blue" />
+                    android:backgroundTint="@color/button_color_blue"
+                    android:elevation="2dp" />
 
 
                 <RelativeLayout
@@ -182,7 +182,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="342dp"
-                    android:layout_marginTop="740dp">
+                    android:layout_marginTop="740dp"
+                    android:elevation="5dp">
 
                     <ImageView
                         android:id="@+id/vector_ek2"
@@ -191,6 +192,7 @@
                         android:layout_marginStart="6.33dp"
                         android:layout_marginTop="11.08dp"
                         android:contentDescription="vector_ek2"
+                        android:elevation="5dp"
                         android:src="@drawable/vector_ek6" />
 
                 </RelativeLayout>
