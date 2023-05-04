@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".candidate.Education_edit">
 
-    <ScrollView android:id="@+id/secected_job_description"
+    <ScrollView
+        android:id="@+id/secected_job_description"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent">
 
-        <RelativeLayout android:id="@+id/content_container"
+        <RelativeLayout
+            android:id="@+id/content_container"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
-            <RelativeLayout android:id="@+id/page_secected_job_description_ek1"
-                android:layout_marginTop="0dp"
-                android:layout_marginStart="0dp"
+            <RelativeLayout
+                android:id="@+id/page_secected_job_description_ek1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                >
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp">
 
                 <View
                     android:id="@+id/rectangle_7"
@@ -30,26 +32,26 @@
                     android:background="@drawable/rectangle_7_shape"
                     android:backgroundTint="@color/top_box" />
 
-                <TextView android:id="@+id/software_engineer"
-                    android:textStyle="bold"
-                    android:textSize="23sp"
-                    android:textColor="@color/text_color"
-                    android:layout_marginLeft="36dp"
-                    android:layout_marginTop="15dp"
+                <TextView
+                    android:id="@+id/software_engineer"
                     android:layout_width="214.5dp"
                     android:layout_height="39.5dp"
-                    android:text="Isuru Udantha"
-                    />
-
-                <TextView android:id="@+id/Softwareisuru"
-                    android:textSize="15sp"
-                    android:textColor="@color/text_color"
                     android:layout_marginLeft="36dp"
-                    android:layout_marginTop="41dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Isuru Udantha"
+                    android:textColor="@color/text_color"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Softwareisuru"
                     android:layout_width="321.5dp"
                     android:layout_height="28.5dp"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="41dp"
                     android:text="Software Engineer"
-                    />
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
 
                 <TextView
                     android:id="@+id/Experiences"
@@ -234,16 +236,15 @@
                 </RelativeLayout>
 
 
-
-                <RelativeLayout android:id="@+id/group_8"
-                    android:layout_marginTop="480dp"
-                    android:layout_marginStart="130dp"
+                <RelativeLayout
+                    android:id="@+id/group_8"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="130dp"
+                    android:layout_marginTop="480dp">
 
 
                 </RelativeLayout>
-
 
 
             </RelativeLayout>
@@ -251,4 +252,4 @@
 
     </ScrollView>
 
-</HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -87,7 +87,7 @@
                     android:text="@string/welcome_screen_2_title"
                     />
 
-                <ImageView android:id="@+id/_4950287_19874_1"
+                <ImageView android:id="@+id/image1234"
                     android:src="@drawable/_4950287_19874_1"
                     android:contentDescription="_4950287_19874_1"
                     android:layout_marginStart="14dp"

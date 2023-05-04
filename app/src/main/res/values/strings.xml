@@ -95,7 +95,7 @@
     <string name="add_string">ADD</string>
     <string name="good_morning__isuru_string">Good Morning, Isuru</string>
     <string name="isuru_udantha_software_engineer_isuru_u_gmail_com_string">Isuru Udantha\nSoftware Engineer\nisuru.u@gmail.com</string>
-    <string name="previous_experience_working_on_software_development_projects__either_through_internships_or_personal_projects_string">Previous experience working on software development projects, either through internships or personal projects</string>
+    <string name="previous_experience_working_on_software_development_projects__either_through_internships_or_personal_projects_string">Previous experience working on software development projects, either through internships or personal projects blaaa balaaa balaaaaa</string>
     <string name="experiences_string">Experiences</string>
     <string name="add_ek1_string">ADD</string>
     <string name="proficient_in_programming_languages_such_as_java__python__or_c___knowledge_of_front_end_development_technologies_string">Proficient in programming languages such as Java, Python, or C++Knowledge of front-end development technologies</string>
@@ -126,6 +126,11 @@
     <string name="My_Offerings">Job Offers</string>
     <string name="abccompany">ABC Company (PVT) Ltd</string>
     <string name="edit">Edit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
+
+
+
