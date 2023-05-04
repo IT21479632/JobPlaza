@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".candidate.Jobs">
+
+    <ScrollView
+        android:id="@+id/treding_jobs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:id="@+id/page_treding_jobs_ek1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp">
+
+                <View
+                    android:id="@+id/rectangle_7"
+                    android:layout_width="410dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_7_shape"
+                    android:backgroundTint="@color/top_box" />
+
+                <View
+                    android:id="@+id/rectangle_9"
+                    android:layout_width="410dp"
+                    android:layout_height="81dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="720dp"
+                    android:background="@drawable/rectangle_9_shape"
+                    android:backgroundTint="@color/top_box" />
+
+                <TextView
+                    android:id="@+id/trending_jobs"
+                    android:layout_width="171.5dp"
+                    android:layout_height="39.5dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Jobs"
+                    android:textColor="@color/text_color"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/rectangle_8"
+                    android:layout_width="318dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/rectangle_8_shape"
+                    android:backgroundTint="@color/box_color2"
+                    android:elevation="10dp" />
+
+                <EditText
+                    android:id="@+id/search"
+                    android:layout_width="310dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="51dp"
+                    android:backgroundTint="@color/box_color2"
+                    android:elevation="10dp"
+                    android:inputType=""
+                    android:text="@string/search_string"
+                    android:textColor="@color/text_color"
+                    android:textSize="15sp" />
+
+                <View
+                    android:id="@+id/rectangle_10"
+                    android:layout_width="59dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="135dp"
+                    android:layout_marginTop="735dp"
+                    android:background="@drawable/rectangle_10_shape"
+                    android:backgroundTint="@color/button_color_blue" />
+
+                <RelativeLayout
+                    android:id="@+id/document"
+                    class=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="148dp"
+                    android:layout_marginTop="740dp">
+
+                    <ImageView
+                        android:id="@+id/vector"
+                        android:layout_width="26.25dp"
+                        android:layout_height="29.17dp"
+                        android:layout_marginStart="4.38dp"
+                        android:layout_marginTop="2.92dp"
+                        android:contentDescription="vector"
+                        android:src="@drawable/vector_ek44" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/heart"
+                    class=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="245dp"
+                    android:layout_marginTop="740dp">
+
+                    <ImageView
+                        android:id="@+id/vector_ek1"
+                        android:layout_width="29.17dp"
+                        android:layout_height="26.25dp"
+                        android:layout_marginStart="2.92dp"
+                        android:layout_marginTop="4.38dp"
+                        android:contentDescription="vector_ek1"
+                        android:src="@drawable/vector_ek1" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/user"
+                    class=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="342dp"
+                    android:layout_marginTop="740dp">
+
+                    <ImageView
+                        android:id="@+id/vector_ek2"
+                        android:layout_width="25.33dp"
+                        android:layout_height="23.75dp"
+                        android:layout_marginStart="6.33dp"
+                        android:layout_marginTop="11.08dp"
+                        android:contentDescription="vector_ek2"
+                        android:src="@drawable/vector_ek2" />
+
+                </RelativeLayout>
+
+
+
+
+                <RelativeLayout
+                    android:id="@+id/home"
+                    class=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="51dp"
+                    android:layout_marginTop="740dp">
+
+                    <ImageView
+                        android:id="@+id/vector_ek3"
+                        android:layout_width="29.17dp"
+                        android:layout_height="29.17dp"
+                        android:layout_marginStart="2.92dp"
+                        android:layout_marginTop="2.92dp"
+                        android:contentDescription="vector_ek3"
+                        android:src="@drawable/vector55" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/group_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="141dp">
+
+                    <View
+                        android:id="@+id/rectangle_1"
+                        android:layout_width="318dp"
+                        android:layout_height="166dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/rectangle_1_shape"
+                        android:backgroundTint="#E6E5E5" />
+
+                    <TextView
+                        android:id="@+id/d1"
+                        android:layout_width="300dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="56dp"
+                        android:text="We are looking for a creative and strategic Social Media Content Manager to manage our company's presence on a multitude of online platforms. . "
+                        android:textColor="@color/text_color"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/software_engineer"
+                        android:layout_width="300dp"
+                        android:layout_height="39.5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Social Media Content Manager"
+                        android:textColor="@color/text_color"
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/lbs_company__pvt__ltd"
+                        android:layout_width="160dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="30dp"
+                        android:text="@string/lbs_company__pvt__ltd_string"
+                        android:textColor="@color/text_color"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/apply"
+                        android:layout_width="89dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="221dp"
+                        android:layout_marginTop="116dp"
+                        android:backgroundTint="@color/button_color_blue"
+                        android:gravity="center"
+                        android:text="@string/apply_string"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/group_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="338dp">
+
+                    <View
+                        android:id="@+id/rectangle_1_ek1"
+                        android:layout_width="318dp"
+                        android:layout_height="166dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/rectangle_1_ek1_shape"
+                        android:backgroundTint="#E6E5E5" />
+
+                    <TextView
+                        android:id="@+id/d2"
+                        android:layout_width="300dp"
+                        android:layout_height="82.5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="51dp"
+                        android:text="Perform 24x7 network surveillance of clients network infrastructure and devices, to provide round-the-clock fault  and technical support."
+                        android:textColor="@color/text_color"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/social_media_content_manager"
+                        android:layout_width="300dp"
+                        android:layout_height="39.5dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Network Engineer"
+                        android:textColor="@color/text_color"
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/nowah_co"
+                        android:layout_width="127dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="29dp"
+                        android:text="Sys Technologies"
+                        android:textColor="@color/text_color"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/apply_ek1"
+                        android:layout_width="89dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="221dp"
+                        android:layout_marginTop="116dp"
+                        android:backgroundTint="@color/button_color_blue"
+                        android:gravity="center"
+                        android:text="@string/apply_ek1_string"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/group_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="535dp">
+
+                    <View
+                        android:id="@+id/rectangle_1_ek2"
+                        android:layout_width="318dp"
+                        android:layout_height="166dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/rectangle_1_ek1_shape"
+                        android:backgroundTint="#E6E5E5" />
+
+                    <TextView
+                        android:id="@+id/d3"
+                        android:layout_width="300dp"
+                        android:layout_height="100.5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="51dp"
+                        android:text="Plan, supervise and implement the programme for the class in accordance with centre’s policies and framework Complete progress reports on children for each semester."
+                        android:textColor="@color/text_color"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/unit_trust_consultant"
+                        android:layout_width="244.5dp"
+                        android:layout_height="39.5dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="5dp"
+                        android:text="English Tutor"
+                        android:textColor="@color/text_color"
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/public_mutual_berhad"
+                        android:layout_width="175dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="29dp"
+                        android:text="Bizorz academy"
+                        android:textColor="@color/text_color"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/apply_ek2"
+                        android:layout_width="89dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="221dp"
+                        android:layout_marginTop="116dp"
+                        android:backgroundTint="@color/button_color_blue"
+                        android:gravity="center"
+                        android:text="@string/apply_ek2_string"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/bell"
+                    class=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="370dp"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/vector_ek4"
+                        android:layout_width="18dp"
+                        android:layout_height="15dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="2dp"
+                        android:contentDescription="vector_ek4"
+                        android:src="@drawable/vector_ek4" />
+
+                    <ImageView
+                        android:id="@+id/vector_ek5"
+                        android:layout_width="3.46dp"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="10.27dp"
+                        android:layout_marginTop="21dp"
+                        android:contentDescription="vector_ek5"
+                        android:src="@drawable/vector_ek5" />
+
+                    <View
+                        android:id="@+id/ellipse_47"
+                        android:layout_width="7.94dp"
+                        android:layout_height="7.94dp"
+                        android:layout_marginStart="13.73dp"
+                        android:layout_marginTop="0.73dp"
+                        android:background="@drawable/ellipse_47_shape"
+                        android:backgroundTint="@color/button_color_red" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</HorizontalScrollView>
